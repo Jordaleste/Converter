@@ -31,7 +31,7 @@
                                     <rect key="frame" x="16" y="147" width="321" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="pressToConvert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CW8-i9-XYx"/>
+                                    <action selector="convertButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfX-8K-mOA"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AgeOfLaika.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="swk-HD-huZ">
@@ -53,7 +53,7 @@
                     </view>
                     <connections>
                         <outlet property="answerDogYears" destination="lNO-lB-bcI" id="mnD-C1-p4Y"/>
-                        <outlet property="convertButton" destination="B9y-C9-Us4" id="g61-2m-MIe"/>
+                        <outlet property="convertButton" destination="B9y-C9-Us4" id="L8A-qZ-dvG"/>
                         <outlet property="humanYears" destination="N3T-Ts-1Qf" id="Fyd-q3-DiS"/>
                     </connections>
                 </viewController>
